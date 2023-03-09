@@ -2,7 +2,7 @@ import os, requests, json
 #resp = requests.get("http://52.86.74.68/latest/user-data/")
 #conf_dict = json.loads(resp.content.decode('utf-8'))
 
-config_dict={
+conf_dict={
     "MYSQL_USER": "admin",
     "MYSQL_PASSWORD":"a2cloudruchisneha",
     "MYSQL_HOST":"database-2.cabadqcqayd0.us-east-1.rds.amazonaws.com",
