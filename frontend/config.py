@@ -1,7 +1,14 @@
 import os, requests, json
-resp = requests.get("http://52.86.74.68/latest/user-data/")
-conf_dict = json.loads(resp.content.decode('utf-8'))
+#resp = requests.get("http://52.86.74.68/latest/user-data/")
+#conf_dict = json.loads(resp.content.decode('utf-8'))
 
+config_dict={
+    "MYSQL_USER": "admin",
+    "MYSQL_PASSWORD":"a2cloudruchisneha",
+    "MYSQL_HOST":"database-2.cabadqcqayd0.us-east-1.rds.amazonaws.com",
+    "aws_access_key_id":"AKIARQKRVO4S26T5MJKW",
+    "aws_secret_access_key":"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"
+}
 db_config = {'user': conf_dict["MYSQL_USER"],
              'password': conf_dict["MYSQL_PASSWORD"],
              'host': conf_dict["MYSQL_HOST"],
