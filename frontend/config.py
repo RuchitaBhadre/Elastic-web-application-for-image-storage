@@ -1,5 +1,5 @@
 import os, requests, json
-#resp = requests.get("http://52.86.74.68/latest/user-data/")
+#resp = requests.get("http://169.254.169.254/latest/user-data/")
 #conf_dict = json.loads(resp.content.decode('utf-8'))
 
 conf_dict={
