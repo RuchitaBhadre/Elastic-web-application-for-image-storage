@@ -30,7 +30,7 @@ def upload_image(request,key):
             try:
                 print("trying")
                 base64_image = base64.b64encode(file.read())
-                s3.put_object(Body=base64_image,Key=key,Bucket="image-bucket-a2",ContentType='image')
+                s3.put_object(Body=base64_image,Key=key,Bucket="s3-bucket-a2",ContentType='image')
                 print("uploaded")
                 #TODO: memcache invalidate
                 jsonReq={"keyReq":key}
@@ -56,7 +56,7 @@ def upload_image(request,key):
                base64_image = base64.b64encode(f.read())
             f.close()
             os.remove(filename)
-            s3.put_object(Body=base64_image,Key=key,Bucket="image-bucket-a2",ContentType='image')
+            s3.put_object(Body=base64_image,Key=key,Bucket="s3-bucket-a2",ContentType='image')
             #TODO: memcache invalidate
             try:
                 jsonReq={"keyReq":key}
@@ -71,7 +71,7 @@ def upload_image(request,key):
 
 def download_image(key):
     with open('Temp.txt', 'wb') as file:
-        s3.download_fileobj('image-bucket-a2', key, file)
+        s3.download_fileobj('s3-bucket-a2', key, file)
     with open('Temp.txt', 'rb') as file:
         base64_image = file.read().decode('utf-8')
     file.close()
@@ -141,7 +141,7 @@ def save_image_automated(request, key):
             try:
                 print("trying")
                 base64_image = base64.b64encode(file.read())
-                s3.put_object(Body=base64_image,Key=key,Bucket="image-bucket-a2",ContentType='image')
+                s3.put_object(Body=base64_image,Key=key,Bucket="s3-bucket-a2",ContentType='image')
                 print("uploaded")
                 #TODO: memcache invalidate
                 jsonReq={"keyReq":key}
