@@ -6,8 +6,8 @@ from botocore.config import Config
 instance_ids = ['i-04064013ac1862adf', 'i-0360438eeb0ed4afc', 'i-0cc80fcbd4dc96d6c', "i-012533eda9b15248f", "i-04b2f2abb77a085a8", "i-00f92c02d4a89d8bf", "i-04d218436060eaa68", "i-05a8c558bbab9cfdb"]
 
 
-resp = requests.get("http://169.254.169.254/latest/user-data/")
-conf_dict = json.loads(resp.content.decode('utf-8'))
+#resp = requests.get("http://169.254.169.254/latest/user-data/")
+#conf_dict = json.loads(resp.content.decode('utf-8'))
 
 my_config = Config(
     region_name = 'us-east-1',
@@ -17,7 +17,7 @@ my_config = Config(
         'mode': 'standard'
     }
 )
-"""
+
 conf_dict={
     "MYSQL_USER": "admin",
     "MYSQL_PASSWORD":"a2cloudruchisneha",
@@ -25,7 +25,7 @@ conf_dict={
     "aws_access_key_id":"AKIARQKRVO4S26T5MJKW",
     "aws_secret_access_key":"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"
 }
-"""
+
 db_config = {'user': conf_dict["MYSQL_USER"],
              'password': conf_dict["MYSQL_PASSWORD"],
              'host': conf_dict["MYSQL_HOST"],
