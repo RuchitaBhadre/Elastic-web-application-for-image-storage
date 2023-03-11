@@ -21,7 +21,7 @@ def call_ready_request():
 
     try:
         response = ec2.describe_instances(InstanceIds=[instance_id_main], DryRun=False)
-
+        print(response)
         resp = requests.get("http://169.254.169.254/latest/meta-data/public-ipv4")
         instance_ip_address = resp.content.decode("utf-8")
 
