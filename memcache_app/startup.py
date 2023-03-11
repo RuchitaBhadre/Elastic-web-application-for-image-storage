@@ -3,8 +3,11 @@ import boto3
 from botocore.exceptions import ClientError
 
 instance_id_main = "i-09a285e289fa20084" # Main host
-access_key = os.getenv("AWS_ACCESS_KEY")
-secret_key = os.getenv("AWS_SECRET_KEY")
+#access_key = os.getenv("AWS_ACCESS_KEY")
+#secret_key = os.getenv("AWS_SECRET_KEY")
+
+access_key = "AKIARQKRVO4S26T5MJKW"
+secret_key = "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"
 
 ec2 = boto3.client('ec2', region_name='us-east-1', aws_access_key_id=access_key,
          aws_secret_access_key=secret_key)
