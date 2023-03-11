@@ -20,7 +20,7 @@ my_config = Config(
 
 conf_dict={
     "MYSQL_USER": "admin",
-    "MYSQL_PASSWORD":"a2cloudruchisneha",
+    "MYSQL_PASSWORD":"Kir0nsn3",
     "MYSQL_HOST":"database-2.cabadqcqayd0.us-east-1.rds.amazonaws.com",
     "aws_access_key_id":"AKIARQKRVO4S26T5MJKW",
     "aws_secret_access_key":"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"
