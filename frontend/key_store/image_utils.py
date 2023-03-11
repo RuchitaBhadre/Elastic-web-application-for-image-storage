@@ -35,11 +35,15 @@ def upload_image(request,key):
                 #TODO: memcache invalidate
                 jsonReq={"keyReq":key}
                 ip_resp = requests.get(backend_app + '/hash_key', json=jsonReq)
+                print(ip_resp)
                 ip_dict = json.loads(ip_resp.content.decode('utf-8'))
+                print(ip_dict)
                 ip=ip_dict[1]
                 res = requests.post('http://'+ str(ip) +':5000/invalidate', json=jsonReq)
+                print(res)
                 return write_img_db(key, key)
-            except:
+            except Exception as e:
+                print(e)
                 return "INVALID"
             # return "SAVED"
         return "INVALID"
