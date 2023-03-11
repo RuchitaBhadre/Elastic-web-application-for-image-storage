@@ -11,7 +11,7 @@ h3 {
 
 .top_bar {
   line-height: 50px;
-  background-color: rgb(17, 79, 130);
+  background-color: rgb(71, 28, 214);
   margin: -8px -8px 0px -8px;
 }
 
@@ -24,14 +24,14 @@ h3 {
 }
 
 .top_bar a:hover {
-  background-color: rgb(28, 130, 214);
+  background-color: rgb(28, 112, 214);
 }
 
 
 .form-outline {
   border-radius: 5px;
   width: 480px;
-  background-color: #f2f2f2;
+  background-color: #c3c2c4;
   padding: 20px;
 }
 
