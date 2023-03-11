@@ -155,7 +155,9 @@ def get_response_no_key():
 def startup_app():
     print("Setting Params on start")
     cache_params = json.loads(startup.call_ready_request())
+    print(cache_params)
     capacity = cache_params['max_capacity']
+    print(capacity)
     replacement_policy = cache_params['replacement_policy']
     create_new_cache(replacement_policy, capacity)
     config.memcache_obj = new_cache
