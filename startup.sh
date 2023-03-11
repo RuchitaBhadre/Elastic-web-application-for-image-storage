@@ -1,5 +1,5 @@
 #!/bin/sh
-cd /home/ubuntu
+#cd /home/ubuntu
 pip install flask
 pip install cachetools
 pip install boto3
