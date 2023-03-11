@@ -1,7 +1,7 @@
 import os
-password = os.getenv("MYSQL_PASSWORD")
+#password = os.getenv("MYSQL_PASSWORD")
 db_config = {'user': 'admin',
-             'password': password,
+             'password': Kir0nsn3,
              'host': 'database-2.cabadqcqayd0.us-east-1.rds.amazonaws.com',
              'port': '3306',
              'database': 'ImageStore'}
