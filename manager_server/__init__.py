@@ -3,13 +3,13 @@ import threading
 webapp = Flask(__name__)
 memcache_pool = {
     "i-0b2b1fce0022b51ea": None,
-    "i-0303f5a7fd081629c": None,
-    "i-058c4a6353bd7f1d4": None,
-    "i-018c73777fc91954d": None,
-    "i-044829f7150c411df": None,
-    "i-09396032b888b6010": None,
-    "i-03ae457601a8f502d": None,
-    "i-049ec293fa03cdd3c": None
+    "i-000f2b2f469cf5df4": None,
+    "i-041a6b3b01c145be3": None,
+    "i-0f1cd99617e4f3656": None,
+    "i-06910f22c363f377e": None,
+    "i-09839739293389736": None,
+    "i-082877449b21341df": None,
+    "i-0b4b4d2beb159a395": None
 }
 from manager_server import backend_client
 from manager_server.statistics_server import thread_stats
