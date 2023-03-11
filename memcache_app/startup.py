@@ -33,6 +33,10 @@ def call_ready_request():
 
         host_ip_address = response['Reservations'][0]['Instances'][0]['PublicIpAddress']
         address = 'http://' + str(host_ip_address) + ':5002/readyRequest'
+
+        print(host_ip_address)
+        print(address)
+
         jsonReq = {
             "ip_address": instance_ip_address,
             "instance_id": instance_id
