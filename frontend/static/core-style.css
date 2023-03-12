@@ -1,8 +1,10 @@
+"""
 html{
     display: table;
     margin:auto;
     background-color: #c8d3db;
 }
+"""
 
 * {
   font-family: "Amazon Ember",sans-serif;
@@ -26,6 +28,12 @@ h5 {
   font-size: 14px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
