@@ -4,8 +4,14 @@
 }
 
 h3 {
-  font-size: 16px;
-  margin-top: 8px;
+ #font-size: 16px;
+ #margin-top: 8px;
+  display: table;
+  margin: auto;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
 }
 
 
