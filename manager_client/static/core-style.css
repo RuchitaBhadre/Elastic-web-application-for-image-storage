@@ -31,7 +31,7 @@ img {
 
 .top_bar {
   line-height: 50px;
-  background-color: rgb(17, 79, 130);
+  background-color: rgb(28, 168, 214);
   margin: -8px -8px 0px -8px;
 }
 
@@ -44,7 +44,7 @@ img {
 }
 
 .top_bar a:hover {
-  background-color: rgb(28, 130, 214);
+  background-color: rgb(28, 195, 214);
 }
 
 
