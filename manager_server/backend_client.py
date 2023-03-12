@@ -148,8 +148,8 @@ def clear_cache_pool():
             mimetype='application/json'
         )
 
-@webapp.route('/clear_data', methods = ['POST'])
-def clear_data():
+@webapp.route('/delete_all', methods = ['POST'])
+def delete_all():
     
     cnx = get_db()
     cursor = cnx.cursor(buffered = True)
