@@ -68,7 +68,7 @@ img {
 }
 
 .type-select {
-  width: 350px;
+  width: 100%;
   padding: 8px 10px;
   margin: 8px 0;
   display: inline-block;
