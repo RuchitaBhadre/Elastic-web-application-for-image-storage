@@ -1,11 +1,11 @@
 html{
     #display: table;
     #margin:auto;
-    background-color: #c8d3db;
+    background-color: #e6edf2;
 }
 
 * {
-  #font-family: "Amazon Ember",sans-serif;
+  font-family: "Amazon Ember",sans-serif;
   font-size: 14px;
 }
 
@@ -39,6 +39,7 @@ img {
   line-height: 50px;
   background-color: rgb(28, 168, 214);
   margin: -8px -8px 0px -8px;
+  text-align: center;
 }
 
 .top_bar a {
