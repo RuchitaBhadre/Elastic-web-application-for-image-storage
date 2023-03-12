@@ -13,6 +13,15 @@ h4,h3 {
   margin-bottom: 20px;
 }
 
+h5 {
+  display: table;
+  margin: auto;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 
 .top_bar {
   line-height: 50px;
