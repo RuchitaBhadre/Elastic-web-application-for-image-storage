@@ -1,7 +1,7 @@
 html{
     display: table;
     margin:auto;
-    background-color: #beb3e8;
+    background-color: #c8d3db;
 }
 
 * {
@@ -33,6 +33,8 @@ h5 {
   line-height: 50px;
   background-color: rgb(28, 168, 214);
   margin: -8px -8px 0px -8px;
+  float: none;
+  display: block;
 }
 
 .top_bar a {
