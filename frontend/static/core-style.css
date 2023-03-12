@@ -43,6 +43,7 @@ img {
   margin: -8px -8px 0px -8px;
   float: none;
   display: block;
+  text-align: center;
 }
 
 .top_bar a {
