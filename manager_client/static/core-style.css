@@ -1,3 +1,11 @@
+"""
+html{
+    display: table;
+    margin:auto;
+    background-color: #c8d3db;
+}
+"""
+
 * {
   font-family: "Amazon Ember",sans-serif;
   font-size: 14px;
