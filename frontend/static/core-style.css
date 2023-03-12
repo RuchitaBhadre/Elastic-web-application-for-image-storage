@@ -163,10 +163,12 @@ img {
 }
 
 table {
+  display: table;
+  margin: auto;
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 200px;
-text-align: center
+  text-align: center
 }
 
 td, th {
