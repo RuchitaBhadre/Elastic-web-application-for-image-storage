@@ -1,13 +1,11 @@
-"""
 html{
-    display: table;
-    margin:auto;
-    background-color: #c8d3db;
+    #display: table;
+    #margin:auto;
+    background-color: #e6edf2;
 }
-"""
 
 * {
-  font-family: "Snell Roundhan";
+  font-family: "Georgia",sans-serif;
   font-size: 14px;
 }
 
