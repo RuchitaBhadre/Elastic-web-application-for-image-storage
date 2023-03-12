@@ -5,7 +5,8 @@ html{
 }
 
 * {
-  font-family: "Amazon Ember",sans-serif;
+  #font-family: "Amazon Ember",sans-serif;
+  font-family: "Georgia",sans-serif;
   font-size: 14px;
 }
 
