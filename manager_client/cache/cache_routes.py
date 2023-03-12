@@ -88,11 +88,11 @@ def clear_cache():
         node_data=node_data,
         cache_policy=cache_policy)
 
-@cache_routes.route('/clear_data', methods=['GET', 'POST'])
+@cache_routes.route('/delete_all', methods=['GET', 'POST'])
 def clear_data():
     global backend_app
     if request.method == 'POST':
-        res = requests.post(backend_app + '/clear_data')
+        res = requests.post(backend_app + '/delete_all')
     capacity, replacement_policy, update_time, memcache_pool, node_data, pool_params, cache_policy = format_cache_settings()
     return render_template('memcache_manager.html',
         capacity=capacity,
