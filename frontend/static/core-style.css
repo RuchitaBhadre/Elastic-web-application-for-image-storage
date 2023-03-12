@@ -70,7 +70,6 @@ img {
 .type-select {
   width: 350px;
   padding: 8px 10px;
-  margin: auto;
   #margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
@@ -86,6 +85,10 @@ img {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
+}
+
+.input{
+text-align: center;
 }
 
 .hidden {
