@@ -89,7 +89,7 @@ def clear_cache():
         cache_policy=cache_policy)
 
 @cache_routes.route('/delete_all', methods=['GET', 'POST'])
-def clear_data():
+def delete_all():
     global backend_app
     if request.method == 'POST':
         res = requests.post(backend_app + '/delete_all')
