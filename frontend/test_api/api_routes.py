@@ -84,7 +84,7 @@ def one_key(key_value):
                 return jsonify(data_out)
 
         else:
-            data_out={"success":"true" , "content":res.text}
+            data_out={"success":"true" ,"key":key_value, "content":res.text}
             return jsonify(data_out)
 
     except Exception as e:
