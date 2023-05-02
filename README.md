@@ -1,8 +1,7 @@
-# CloudComputingA2
+# Elastic web application for image storage
 
-Assignment 2 for ECE 1779
 
-Projet uses: EC2, RDS, S3, Cloudwatch
+Project uses: EC2, RDS, S3, Cloudwatch
 
 
 ### Project Description
