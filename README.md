@@ -43,7 +43,7 @@ Some of the design decisions we made for our web application are:
 |**Constant memcache node pool size latency graph.** |**Constant memcache node pool size throughput graph.** |
 | :- | :-: |
 |![](images/Picture1.png)|![](images/Picture2.png)|
-||**Shrinking memcache node pool size latency graph** |**Shrinking memcache node pool size throughput graph.** |
+|**Shrinking memcache node pool size latency graph** |**Shrinking memcache node pool size throughput graph.** |
 |![](images/Picture3.png)|![](images/Picture4.png)|
 |**Growing memcache node pool size latency graph.** |**Growing memcache node pool size throughput graph.** |
 |![](images/Picture11.png)|![](images/Picture12.png)|
@@ -61,7 +61,6 @@ The subsequent graphs show results of the process.
 |**Case: growing number of nodes** ||**Case: shrinking number of nodes** |
 | - |:- | - |
 |**Average Cache Pool Size** ||**Average Cache Pool Size** |
-| - |:- | - |
 |![](images/Picture5.png)|![](images/Picture6.png)|
 |**Average Miss Rate Threshold** ||**Average Miss Rate Threshold** |
 |![](images/Picture7.png)|![](images/Picture8.png)|
