@@ -1,10 +1,10 @@
 ﻿**Contributors :Ruchita Rajkumar Bhadre -  Sneha Prem Kiron -**  
 
-![](images/Aspose.Words.c569de92-2543-402b-9319-512a9f8ced73.001.png)**
+![](images/Aspose.Words.c569de92-2543-402b-9319-512a9f8ced73.001.png)
 
 **Application Architecture**  
 
-![](images/Aspose.Words.c569de92-2543-402b-9319-512a9f8ced73.002.jpeg)
+![](images/Picture18.png)
 
 The system architecture consists of three Flask instances, one for frontend, one for the manager app and the last one for handling memory-cache pool actions. The third Flask instance allows decoupling of the pool management from both systems and lifecycle functions of the EC2 instances. The manager app handles configuring the policy. While the memory cache manager handles the execution of the configuration policies and activities involving any kind of communication among the pool of memcache nodes. Similarly, the startup and shutdown of instances is handled by the autoscaler python application that communicates with the manager app and hence helps in ensuring that the manager is always aware of the instance changes. The number of available nodes and correct hash map is determined by the front-end application with the help of the Manager app. 
 
@@ -16,9 +16,9 @@ Along with this fundamental architecture, other cloud services offered by Amazon
 
 |**Application Notification UI** |**Application Memcache Manager App UI** |
 | - | - |
-|![](images/Aspose.Words.c569de92-2543-402b-9319-512a9f8ced73.003.png)|![](images/Aspose.Words.c569de92-2543-402b-9319-512a9f8ced73.004.png)|
+|![]((images/Picture17.png))|![]((images/Picture16.png))|
 |**Active Memcache Node- Starting** |**Active Memcache Node- Started** |
-|![](images/Aspose.Words.c569de92-2543-402b-9319-512a9f8ced73.005.jpeg)|![](images/Aspose.Words.c569de92-2543-402b-9319-512a9f8ced73.006.jpeg)|
+|![]((images/Picture15.png))|![]((images/Picture14.png))|
 
 **Design Decisions**
 
@@ -30,7 +30,7 @@ Some of the design decisions we made for our web application are:
 
 **Database Schema** 
 
-![](images/Aspose.Words.c569de92-2543-402b-9319-512a9f8ced73.007.jpeg)
+![](images/Picture13.png)
 
 **Image\_table:** Relational table to store the key and value pairs that are used to determine correlating images in the S3 bucket image-bucket-a2. Image\_key is the primary key for this table.** 
 
