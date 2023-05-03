@@ -4,7 +4,7 @@
 
 **Application Architecture**  
 
-![](images/Picture18.png)
+![](images/Picture18.jpg)
 
 The system architecture consists of three Flask instances, one for frontend, one for the manager app and the last one for handling memory-cache pool actions. The third Flask instance allows decoupling of the pool management from both systems and lifecycle functions of the EC2 instances. The manager app handles configuring the policy. While the memory cache manager handles the execution of the configuration policies and activities involving any kind of communication among the pool of memcache nodes. Similarly, the startup and shutdown of instances is handled by the autoscaler python application that communicates with the manager app and hence helps in ensuring that the manager is always aware of the instance changes. The number of available nodes and correct hash map is determined by the front-end application with the help of the Manager app. 
 
