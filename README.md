@@ -1,10 +1,6 @@
-﻿**Ruchita Rajkumar Bhadre -  Sneha Prem Kiron -**  
+﻿** Contributors :Ruchita Rajkumar Bhadre -  Sneha Prem Kiron -**  
 
-**1008497244**                        
-
-**1009703402** 
-
-**ECE1779 Assignment 2 Group 19 members ![](images/Aspose.Words.c569de92-2543-402b-9319-512a9f8ced73.001.png)**
+![](images/Aspose.Words.c569de92-2543-402b-9319-512a9f8ced73.001.png)**
 
 **Application Architecture**  
 
