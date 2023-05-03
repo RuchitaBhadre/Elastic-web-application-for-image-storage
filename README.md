@@ -42,8 +42,8 @@ Some of the design decisions we made for our web application are:
 
 images/Picture1.png
 
-||**Constant memcache node pool size latency graph.** |**Constant memcache node pool size throughput graph.** |
-| :- | :-: | :-: |
+|**Constant memcache node pool size latency graph.** |**Constant memcache node pool size throughput graph.** |
+| :- | :-: |
 |![](images/Picture1.png)|![](images/Picture2.png)|
 ||**Shrinking memcache node pool size latency graph** |**Shrinking memcache node pool size throughput graph.** |
 | :-: | :-: |
