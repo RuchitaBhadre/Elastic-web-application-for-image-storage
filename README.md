@@ -59,7 +59,7 @@ Cooldown phase- To demonstrate the pool size shrinking due to lack of use. The m
 The subsequent graphs show results of the process. 
 
 |**Case: growing number of nodes** ||**Case: shrinking number of nodes** |
-| - |:- | -: |
+| - | - |
 |**Average Cache Pool Size** ||**Average Cache Pool Size** |
 |![](images/Picture5.png)|![](images/Picture6.png)|
 |**Average Miss Rate Threshold** ||**Average Miss Rate Threshold** |
