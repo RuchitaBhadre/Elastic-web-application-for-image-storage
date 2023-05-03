@@ -40,16 +40,14 @@ Some of the design decisions we made for our web application are:
 
 **Graphs** 
 
-
+images/Picture1.png
 
 ||**Constant memcache node pool size latency graph.** |**Constant memcache node pool size throughput graph.** |
 | :- | :-: | :-: |
-||||
-||||
+|![](images/Picture1.png)|![](images/Picture2.png)|
 ||**Shrinking memcache node pool size latency graph** |**Shrinking memcache node pool size throughput graph.** |
-||||
-||||
-
+| :-: | :-: |
+|![](images/Picture3.png)|![](images/Picture4.png)|
 |**Growing memcache node pool size latency graph.** |**Growing memcache node pool size throughput graph.** |
 | :-: | :-: |
 |![](images/Aspose.Words.c569de92-2543-402b-9319-512a9f8ced73.008.png)|![](images/Aspose.Words.c569de92-2543-402b-9319-512a9f8ced73.009.png)|
