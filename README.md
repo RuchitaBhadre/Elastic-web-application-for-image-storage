@@ -1,4 +1,4 @@
-﻿**Contributors :Ruchita Rajkumar Bhadre -  Sneha Prem Kiron -**  
+﻿**Contributors : Ruchita Rajkumar Bhadre -  Sneha Prem Kiron -**  
 
 ![](images/Aspose.Words.c569de92-2543-402b-9319-512a9f8ced73.001.png)
 
@@ -16,9 +16,9 @@ Along with this fundamental architecture, other cloud services offered by Amazon
 
 |**Application Notification UI** |**Application Memcache Manager App UI** |
 | - | - |
-|![]((images/Picture17.png))|![]((images/Picture16.png))|
+|![](images/Picture17.png)|![](images/Picture16.png)|
 |**Active Memcache Node- Starting** |**Active Memcache Node- Started** |
-|![]((images/Picture15.png))|![]((images/Picture14.png))|
+|![](images/Picture15.png)|![](images/Picture14.png)|
 
 **Design Decisions**
 
