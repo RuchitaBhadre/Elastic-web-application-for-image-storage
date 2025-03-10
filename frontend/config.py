@@ -4,10 +4,10 @@ import os, requests, json
 
 conf_dict={
     "MYSQL_USER": "admin",
-    "MYSQL_PASSWORD":"Kir0nsn3",
-    "MYSQL_HOST":"database-2.cabadqcqayd0.us-east-1.rds.amazonaws.com",
-    "aws_access_key_id":"AKIARQKRVO4S26T5MJKW",
-    "aws_secret_access_key":"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"
+    "MYSQL_PASSWORD":"xxxx",
+    "MYSQL_HOST":"xxxx",
+    "aws_access_key_id":"xxxxx",
+    "aws_secret_access_key":"xxxxx"
 }
 
 db_config = {'user': conf_dict["MYSQL_USER"],
